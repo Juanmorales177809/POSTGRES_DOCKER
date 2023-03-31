@@ -9,6 +9,7 @@ query = 'SELECT * FROM "Port1" LIMIT 50'
 
 df = pd.read_sql(query, con=engine)
 print(df)
+print("done")
 
 engine.dispose()
 
